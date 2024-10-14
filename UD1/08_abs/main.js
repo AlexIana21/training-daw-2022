@@ -1,9 +1,13 @@
-const assert = require('assert').strict;
-
 function abs(value) {
-
-}
-
-assert.strictEqual(abs(4), 4)
-assert.strictEqual(abs(-4), 4)
-assert.strictEqual(abs(0), 0)
+    if(value > 0) {
+     console.log(value)
+    }
+    else {
+     console.log(-value)
+    }
+     
+ }
+ 
+ let num1 = -5
+ 
+ abs(num1)
