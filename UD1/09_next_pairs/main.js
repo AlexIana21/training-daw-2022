@@ -1,7 +1,10 @@
-const assert = require('assert').strict;
-
-function nextPairs(value) {
+function imprimirContiguos(numero) {
+    if (numero % 2 === 0) {
+        console.log(numero - 2, numero + 2);
+    } else {
+        console.log(numero - 1, numero + 1);
+    }
 }
 
-assert.deepStrictEqual(nextPairs(3), [2,4])
-assert.deepStrictEqual(nextPairs(4), [2,6])
+let numero1 = 8;
+imprimirContiguos(numero1);
