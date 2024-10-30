@@ -1,7 +1,7 @@
 window.addEventListener("load", function() {
     console.log('documento cargado');
     
-    // Obtener enlaces 
+    // Obtener todos enlaces 
     const enlaces = document.querySelectorAll('[id^="enlace_"]');
     
     
